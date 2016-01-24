@@ -14,7 +14,7 @@ The <head> of a website generally links to important resources the page will
 need to load. You'll see a lot of <link>s to CSS files for styles and
 <scripts> for JavaScript files to build interactions.
 -->
-
+<html lang="en">
 <head>
   <!-- This tells the browser how to read the document. -->
   <meta charset="utf-8">
@@ -23,6 +23,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   <title>Resume</title>
 
   <!-- Load the page styles. -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 
   <!--
@@ -39,6 +40,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   you can't accomplish with vanilla (regular) JavaScript.
   -->
   <script src="js/jQuery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
   <!-- More on helper.js in the class -->
   <script src="js/helper.js"></script>
@@ -52,6 +54,35 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
  <meta name="viewport" content="width=device-width">
 </head>
 <body>
+ <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-nav-demo" data-toggle="collapse" type="button"><span class=
+                "sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+                <a class="navbar-brand" href="#">José Pereira</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-nav-demo">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#work">Work Experience</a>
+                    </li>
+                    <li>
+                        <a href="#project">Project Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#degree">Education</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+     
   <div id="main">
 
     <!--
@@ -60,22 +91,27 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     resume below. You can pretty easily figure out what each section will
     display by looking at the id or at what's written between the <h2> tags.
     -->
+    <a id="about"></a>
     <div id="header" class="center-content clear-fix">
       <ul id="topContacts" class="flex-box"></ul>
     </div>
+    <a id="work"></a>
     <div style="clear: both;"></div>
     <div id="workExperience" class="gray">
       <h2>Work Experience</h2>
     </div>
+    <a id="project"></a>
     <div id="projects">
       <h2>Projects</h2>
     </div>
+    <a id="degree"></a>
     <div id="education" class="gray">
       <h2>Education</h2>
     </div>
     <div id="mapDiv">
       <h2>Where I've Lived and Worked</h2>
     </div>
+    <a id="contact"></a>
     <div id="lets-connect" class="dark-gray">
       <h2 class="orange center-text">Let's Connect</h2>
         <ul id="footerContacts" class="flex-box">
