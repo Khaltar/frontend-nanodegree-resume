@@ -212,3 +212,12 @@ span {
     display: block;
   }
 }
+
+/* Aligning skills into a list */
+
+#skills {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+
