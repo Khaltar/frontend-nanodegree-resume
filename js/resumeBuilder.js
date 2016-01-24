@@ -72,9 +72,17 @@ var education = {
     "onlineCourses": [
         {"title": "Front-End Web Developer Nanodegree",
         "school": "Udacity",
-        "dates": "2016-present",
-        "url": "http://www.udacity.com"}
-    ]
+        "dates": "2016",
+        "url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"},
+        {"title": "Introduction to HTML5",
+        "school": "Coursera - University of Michigan",
+        "dates": "2015",
+        "url": "https://www.coursera.org/account/accomplishments/records/9ECDLSRWTGMH"},
+        {"title": "Introduction to CSS3",
+        "school": "Coursera - University of Michigan",
+        "dates": "2015",
+        "url": "https://www.coursera.org/account/accomplishments/records/YKBWKE2XDMQM"}
+        ]
 }
 
     
