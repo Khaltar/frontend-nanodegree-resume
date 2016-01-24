@@ -83,7 +83,7 @@ var education = {
         "dates": "2015",
         "url": "https://www.coursera.org/account/accomplishments/records/YKBWKE2XDMQM"}
         ]
-}
+};
 
     
 //Header function\\
