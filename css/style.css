@@ -35,7 +35,7 @@ h1 {
 h2 {
     font-weight: bold;
     font-size: 24px;
-    color: #000;
+    color: #ffffff;
     line-height: 29px;
     padding: 10px;
 }
@@ -64,7 +64,7 @@ h5 {
 .date-text {
     font-style: 600;
     font-size: 14px;
-    color: dimgrey;
+    color: #eae314;
     line-height: 16px;
     float: left;
 }
@@ -72,19 +72,19 @@ h5 {
 .location-text {
     font-style: italic;
     font-size: 16px;
-    color: #999;
+    color: #e6e609;
     line-height: 16px;
     float: right;
 }
 
 p {
     font-size: 16px;
-    color: #333;
+    color: #ffffff;
     line-height: 21px;
 }
 
 a {
-    color: #1199c3;
+    color: #ffffff;
     text-decoration: none;
     margin-top: 10px;
     display: block;
@@ -106,11 +106,11 @@ a {
 }
 
 .orange {
-    background-color: darkorange;
+    background-color: #01203b;
 }
 
 .orange-text {
-    color: orangered;
+    color: #d8c221;
     font-size: 15px;
 }
 
@@ -121,9 +121,10 @@ a {
 }
 
 .gray {
-    background-color: lightgrey;
+    background-color: #3b62ae;
     padding-bottom: 10px;
     clear: both;
+    color: white;
 }
 
 .dark-gray {
@@ -132,7 +133,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-    background-color: #484848;
+    background-color: #113682;
 }
 
 .flex-box {
@@ -221,6 +222,7 @@ span {
 .navbar, .navbar-brand {
     font-size: 18px;
     font-weight: bold;
+    margin-bottom: 0px;
 }
 
 .dev-role {
@@ -230,9 +232,29 @@ span {
     color: darkorange;
 }
 
-#skills {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
+#projects {
+    background-color: #51515b;
+    display: inline-block;
+    float: right;
+    width: 49%;
+    overflow: hidden;
+    height: 647px;
 }
 
+#lets-connect {
+    background-color: black;
+}
+
+#lets-connect h2 {
+    color: #f9f0cc;
+}
+
+#topContacts {
+    display: block;
+    text-align: center;
+}
+
+#education {
+    display: inline-block;
+    width: 49%;
+}
